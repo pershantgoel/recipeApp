@@ -30,7 +30,7 @@ const API_KEY = "29b32aa0a2e2de1a18a2fcdeeecc8530";
                     <h3 className="active-recipe__title">{recipe.title}</h3>
                     <h4 className="active-recipe__publisher">Publisher: <span>{recipe.publisher}</span></h4>
                     <p className="active-recipe__website">Website:
-                     <span><a href={recipe.publisher_url}>{recipe.publisher_url}</a></span></p>
+                     <span><a href={recipe.publisher_url} target="_blank">{recipe.publisher_url}</a></span></p>
                      <button className="active-recipe__button">
                      <Link to="/">Go Home</Link>
                      </button>
