@@ -3,7 +3,7 @@ import './App.css';
 import Form from './components/Form';
 import Recipes from './components/Recipes';
 
-const API_KEY = "29b32aa0a2e2de1a18a2fcdeeecc8530";
+const API_KEY = "4f20ec295c0dbd6560c53fb05beb01de";
 
 class App extends Component {
   constructor(props) {
