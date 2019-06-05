@@ -25,6 +25,8 @@ const API_KEY = "29b32aa0a2e2de1a18a2fcdeeecc8530";
             <div className="container">
                 {
                     this.state.activeRecipe.length!==0 && 
+                    <div className="row">
+                    <div className="col-xs-8 offset-xs-2 col-md-8 offset-md-2">
                     <div className="active-recipe">
                     <img className="active-recipe__img" src={recipe.image_url} alt={recipe.title}/>
                     <h3 className="active-recipe__title">{recipe.title}</h3>
@@ -34,6 +36,8 @@ const API_KEY = "29b32aa0a2e2de1a18a2fcdeeecc8530";
                      <button className="active-recipe__button">
                      <Link to="/">Go Home</Link>
                      </button>
+                </div>
+                </div>
                 </div>
                 }
                 
